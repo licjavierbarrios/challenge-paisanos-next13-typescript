@@ -1,0 +1,25 @@
+.container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+
+.rating {
+	color: gold;
+	font-size: 20px;
+}
+
+.description {
+    opacity: 0.8;
+}
+
+.cover {
+    object-fit: cover;
+    z-index: -1;
+}
